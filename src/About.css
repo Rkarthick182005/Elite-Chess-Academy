@@ -1,0 +1,129 @@
+
+.about {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .about-header h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    color: #34495e;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .about-details {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-image {
+    width: 30%;
+    
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    object-fit: contain;
+  }
+  
+  .about-text {
+    text-align: center;
+
+    max-width: 1000px;
+  }
+  
+  .about-text h2 {
+    font-size: 2.2rem;
+    color: #2980b9;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #2980b9;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 0.5rem;
+    line-height: 1.8;
+  }
+  
+  .about-text ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+  }
+  
+  .about-text ul li {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0.8rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .about-text ul li::before {
+    content: '★';
+    color: #e67e22;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .about-impact {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+  }
+  
+  .impact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .impact-item {
+    background: #ecf0f1;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .impact-item h3 {
+    font-size: 1.8rem;
+    color: #3498db;
+    margin-bottom: 0.8rem;
+  }
+  
+  .impact-item p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,32 @@
+.feedback {
+    padding: 2rem;
+  }
+  
+  .feedback form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .feedback textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .feedback button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feedback button:hover {
+    background-color: #555;
+  }
+  
